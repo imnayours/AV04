@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de slides</title>
+    <script src="javascript.js"></script>
+    <script src="lala.js"></script>
+</head>
+<body>
+    <h1>Cadastro de Slides</h1>
+    <br>
+    <form onsubmit="event.preventDefault(); cadastrar(slides)" class="formulario">
+        <label>
+            Descrição:
+            <input name="descrição" type="text" id="descrição"/>
+        </label>
+        <label for="imagem" >Imagem do slide:</label>
+        <input name="imagem" type="file" id="imagem"/> <br>
+        <br>
+        <input type="submit" value="Enviar Formulário" >
+        <br>
+        <input type="submit" value="Atualizar Lista">
+        <br>
+        <input type="submit" value="Anterior">
+        <label>
+            Exibindo:
+            <input name="exibindo" type="text" id="exibindo"/>
+        </label>
+        <input type="submit" value="Próximo">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descrição</th>
+                <th>Imagem</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
